@@ -14,10 +14,13 @@ public class Point {
     @Setter
     private int y;
 
+
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
+
     }
+
 
     @Override
     public boolean equals(Object o) {

@@ -26,7 +26,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'code.trevooga.demo'
-    mainClass = 'code.trevooga.demo.HelloApplication'
+    mainClass = 'code.trevooga.demo.GameOfLife'
 }
 
 javafx {
